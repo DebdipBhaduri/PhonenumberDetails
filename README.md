@@ -1,11 +1,9 @@
 # PhonenumberDetails_Project
-The project you've shared is a simple Python script that utilizes the phonenumbers library to provide information about a phone number entered by the user. It allows the user to input a phone number in international format (including the country code) and then extracts and displays details such as the timezone, carrier, and geographic region associated with that phone number.
-
 Here's an overview of the project:
 
 Importing Libraries: The script begins by importing the necessary modules from the phonenumbers library. These modules are essential for parsing and extracting information from phone numbers.
 
-User Input: The script prompts the user to input a phone number with a + sign and the country code (e.g., +1 for the United States). This input method is user-friendly and ensures that the country code is included.
+User Input: The script prompts the user to input a phone number with a "+" sign and the country code (e.g., "+1" for the United States). This input method is user-friendly and ensures that the country code is included.
 
 Parsing the Phone Number: The user's input is parsed using phonenumbers.parse(), which is the correct method for parsing phone numbers with the library. The resulting phone object contains information about the phone number.
 
